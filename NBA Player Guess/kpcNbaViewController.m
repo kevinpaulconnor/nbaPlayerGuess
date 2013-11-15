@@ -7,6 +7,7 @@
 //
 
 #import "kpcNbaViewController.h"
+#import "kpcNbaTimerController.h"
 
 @interface kpcNbaViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad
 {
+    NSLog(@"before ViewDidLoad");
     [super viewDidLoad];
+    NSLog(@"viewDidLoad");
+    kpcNbaTimerController *timer = [kpcNbaTimerController alloc];
+    [timer startTimer:self];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

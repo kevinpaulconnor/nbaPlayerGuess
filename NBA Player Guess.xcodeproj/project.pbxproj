@@ -21,6 +21,7 @@
 		6D1D541A1833C62E002982D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1D53FC1833C62D002982D4 /* UIKit.framework */; };
 		6D1D54221833C62E002982D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D1D54201833C62E002982D4 /* InfoPlist.strings */; };
 		6D1D54241833C62E002982D4 /* NBA_Player_GuessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D54231833C62E002982D4 /* NBA_Player_GuessTests.m */; };
+		6D1D542F1833CAA8002982D4 /* kpcNbaTimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D542E1833CAA8002982D4 /* kpcNbaTimerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6D1D541F1833C62E002982D4 /* NBA Player GuessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBA Player GuessTests-Info.plist"; sourceTree = "<group>"; };
 		6D1D54211833C62E002982D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D1D54231833C62E002982D4 /* NBA_Player_GuessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBA_Player_GuessTests.m; sourceTree = "<group>"; };
+		6D1D542D1833CAA8002982D4 /* kpcNbaTimerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kpcNbaTimerController.h; sourceTree = "<group>"; };
+		6D1D542E1833CAA8002982D4 /* kpcNbaTimerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaTimerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				6D1D54071833C62D002982D4 /* kpcNbaAppDelegate.h */,
 				6D1D54081833C62D002982D4 /* kpcNbaAppDelegate.m */,
+				6D1D542D1833CAA8002982D4 /* kpcNbaTimerController.h */,
+				6D1D542E1833CAA8002982D4 /* kpcNbaTimerController.m */,
 				6D1D540A1833C62D002982D4 /* Main.storyboard */,
 				6D1D540D1833C62D002982D4 /* kpcNbaViewController.h */,
 				6D1D540E1833C62D002982D4 /* kpcNbaViewController.m */,
@@ -252,6 +257,7 @@
 			files = (
 				6D1D54051833C62D002982D4 /* main.m in Sources */,
 				6D1D54091833C62D002982D4 /* kpcNbaAppDelegate.m in Sources */,
+				6D1D542F1833CAA8002982D4 /* kpcNbaTimerController.m in Sources */,
 				6D1D540F1833C62D002982D4 /* kpcNbaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
