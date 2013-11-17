@@ -10,6 +10,7 @@
 #import "kpcNbaTimerController.h"
 
 @interface kpcNbaViewController ()
+@property kpcNbaTimerController *timer;
 
 @end
 
@@ -20,8 +21,7 @@
     NSLog(@"before ViewDidLoad");
     [super viewDidLoad];
     NSLog(@"viewDidLoad");
-    kpcNbaTimerController *timer = [kpcNbaTimerController alloc];
-    [timer startTimer:self];
+    self.timer = [kpcNbaTimerController alloc];
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -30,6 +30,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)startTimer:(id)sender {
+    [self.timer startTimer:sender];
 }
 
 @end
