@@ -10,12 +10,27 @@
 
 @interface kpcNbaTimerController()
 
-@property NSInteger *timeInSeconds;
+@property NSInteger timeInSeconds;
 @property NSTimer *timer;
 
 @end
 
 @implementation kpcNbaTimerController
+
+- (kpcNbaTimerController*) initWithTime:(NSInteger*)time {
+    // to-do - generate exception instead of returning nil?
+    if (self = [super init]) {
+        if (time == nil) {
+            self.timeInSeconds = 1000;
+        } else {
+            self.timeInSeconds = *(time);
+        }
+
+        return self;
+    } else {
+        return nil;
+    }
+}
 
 - (void) handleTimer:(NSTimer*)timer
 {
@@ -26,12 +41,17 @@
 {
     [self.timer invalidate];
     
-    //NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(handleTimer:) repeats:YES];
     NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1
                                                     target:self
                                                     selector:@selector(handleTimer:) userInfo:nil repeats:YES];
     self.timer = timer;
 }
 
+- (void) stopTimer:sender {
+}
+
+- (void) resetTimer:sender {
+    
+}
 
 @end

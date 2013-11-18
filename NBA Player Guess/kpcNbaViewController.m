@@ -21,7 +21,7 @@
     NSLog(@"before ViewDidLoad");
     [super viewDidLoad];
     NSLog(@"viewDidLoad");
-    self.timer = [kpcNbaTimerController alloc];
+    self.timer = [[kpcNbaTimerController alloc] initWithTime:nil];
     
 	// Do any additional setup after loading the view, typically from a nib.
 }

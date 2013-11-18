@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface kpcNbaTimerController : NSObject
-
+- (id) initWithTime:(NSInteger*)time;
 - (void) startTimer:sender;
-
+- (void) stopTimer:sender;
+- (void) resetTimer:sender;
 @end
