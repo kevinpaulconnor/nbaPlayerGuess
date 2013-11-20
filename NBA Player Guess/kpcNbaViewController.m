@@ -35,5 +35,11 @@
 - (IBAction)startTimer:(id)sender {
     [self.timer startTimer:sender];
 }
+- (IBAction)stopTimer:(id)sender {
+    [self.timer stopTimer:sender];
+}
+- (IBAction)resetTimer:(id)sender {
+    [self.timer resetTimer:sender];
+}
 
 @end

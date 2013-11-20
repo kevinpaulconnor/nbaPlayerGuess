@@ -48,9 +48,11 @@
 }
 
 - (void) stopTimer:sender {
+    [self.timer invalidate];
 }
 
 - (void) resetTimer:sender {
+    [self.timer invalidate];
     
 }
 
