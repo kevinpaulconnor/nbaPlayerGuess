@@ -1,16 +1,16 @@
 //
-//  kpcNbaIntegerScoringComponent.m
+//  kpcNbaNumberScoringComponent.m
 //  NBA Player Guess
 //
 //  Created by Kevin Connor on 11/26/13.
 //  Copyright (c) 2013 Kevin Connor. All rights reserved.
 //
 
-#import "kpcNbaIntegerScoringComponent.h"
+#import "kpcNbaNumberScoringComponent.h"
 
-@implementation kpcNbaIntegerScoringComponent
+@implementation kpcNbaNumberScoringComponent
 
-- (kpcNbaIntegerScoringComponent*) init:(NSInteger)data {
+- (kpcNbaNumberScoringComponent*) init:(NSNumber*)data {
     self = [super init];
     return self;
 }

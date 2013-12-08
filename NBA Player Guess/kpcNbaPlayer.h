@@ -7,11 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "kpcNbaIntegerScoringComponent.h"
 
 @interface kpcNbaPlayer : NSObject
 
-@property kpcNbaIntegerScoringComponent* yearsExperience;
 @property NSArray* scoringComponents;
 
 @end

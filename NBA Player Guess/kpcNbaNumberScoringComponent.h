@@ -1,5 +1,5 @@
 //
-//  kpcNbaIntegerScoringComponent.h
+//  kpcNbaNumberScoringComponent.h
 //  NBA Player Guess
 //
 //  Created by Kevin Connor on 11/26/13.
@@ -8,8 +8,8 @@
 
 #import "kpcNbaScoringComponent.h"
 
-@interface kpcNbaIntegerScoringComponent : kpcNbaScoringComponent
+@interface kpcNbaNumberScoringComponent : kpcNbaScoringComponent
 
-@property NSInteger data;
+@property NSNumber* data;
 
 @end

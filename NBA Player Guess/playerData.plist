@@ -17,6 +17,10 @@
         <string>Excellent outside shooter with consistent 3-point range.</string>
         <key>Scouting Report 3</key>
         <string>After being injured for three straight seasons, [player's] durability is a question mark.</string>
+        <key>College</key>
+        <string>Duke</string>
+        <key>PPG</key>
+        <real>21.2</real>
     </dict>
 </array>
 </plist>
