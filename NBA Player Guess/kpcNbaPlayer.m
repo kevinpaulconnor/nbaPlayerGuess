@@ -13,14 +13,18 @@
 - (kpcNbaPlayer*) init {
     self = [super init];
     
-    self.yearsExperience = [[kpcNbaIntegerScoringComponent alloc] init];
-    
-    self.yearsExperience.data = 0;
-    self.yearsExperience.pointValue = 100;
-    self.yearsExperience.title = @"Years Experience";
+    [self initializeScoringComponents];
     
     return self;
 }
 
+- (void) initializeScoringComponents {
+
+    self.yearsExperience = [[kpcNbaIntegerScoringComponent alloc] init];
+    self.yearsExperience.data = 0;
+    self.yearsExperience.pointValue = 100;
+    self.yearsExperience.title = @"EXP";
+
+}
 
 @end

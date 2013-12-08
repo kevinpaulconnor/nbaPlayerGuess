@@ -8,9 +8,11 @@
 
 #import "kpcNbaViewController.h"
 #import "kpcNbaTimerController.h"
+#import "kpcNbaPlayer.h"
 
 @interface kpcNbaViewController ()
 @property kpcNbaTimerController *timer;
+@property kpcNbaPlayer* player;
 
 @end
 
@@ -22,7 +24,7 @@
     [super viewDidLoad];
     NSLog(@"viewDidLoad");
     self.timer = [[kpcNbaTimerController alloc] initWithTime:nil];
-    
+    self.player = [self getPlayer];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -40,6 +42,10 @@
 }
 - (IBAction)resetTimer:(id)sender {
     [self.timer resetTimer:sender];
+}
+
+- (kpcNbaPlayer*) getPlayer {
+    return [[kpcNbaPlayer alloc] init];
 }
 
 @end
