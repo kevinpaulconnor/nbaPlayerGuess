@@ -12,5 +12,6 @@
 @interface kpcNbaPlayer : NSObject
 
 @property kpcNbaIntegerScoringComponent* yearsExperience;
+@property NSArray* scoringComponents;
 
 @end

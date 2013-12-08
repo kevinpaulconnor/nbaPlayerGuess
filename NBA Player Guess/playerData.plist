@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <dict>
+        <key>First Name</key>
+        <string>Kyrie</string>
+        <key>Last Name</key>
+        <string>Irving</string>
+        <key>Position</key>
+        <string>PG</string>
+        <key>Team</key>
+        <string>Cleveland Cavaliers</string>
+        <key>Scouting Report 1</key>
+        <string>Lightning-fast lead guard with a great handle and ability to exploit the lane.</string>
+        <key>Scouting Report 2</key>
+        <string>Excellent outside shooter with consistent 3-point range.</string>
+        <key>Scouting Report 3</key>
+        <string>After being injured for three straight seasons, [player's] durability is a question mark.</string>
+    </dict>
+</array>
+</plist>

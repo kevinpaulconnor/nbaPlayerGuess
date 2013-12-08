@@ -19,11 +19,14 @@
 }
 
 - (void) initializeScoringComponents {
+    NSString *plistCatPath = [[NSBundle mainBundle] pathForResource:@"playerData" ofType:@"plist"];
+    NSArray *playerData = [NSArray arrayWithContentsOfFile:plistCatPath];
 
-    self.yearsExperience = [[kpcNbaIntegerScoringComponent alloc] init];
-    self.yearsExperience.data = 0;
-    self.yearsExperience.pointValue = 100;
-    self.yearsExperience.title = @"EXP";
+    NSLog(@"playerData: %@", playerData);
+    //self.yearsExperience = [[kpcNbaIntegerScoringComponent alloc] init];
+    //self.yearsExperience.data = 0;
+    //self.yearsExperience.pointValue = 100;
+    //self.yearsExperience.title = @"EXP";
 
 }
 
