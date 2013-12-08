@@ -9,10 +9,12 @@
 #import "kpcNbaViewController.h"
 #import "kpcNbaTimerController.h"
 #import "kpcNbaPlayer.h"
+#import "kpcNbaScoringComponent.h"
 
 @interface kpcNbaViewController ()
 @property kpcNbaTimerController *timer;
 @property kpcNbaPlayer* player;
+@property NSDictionary* scoringComponentData;
 
 @end
 
@@ -23,6 +25,9 @@
     NSLog(@"before ViewDidLoad");
     [super viewDidLoad];
     NSLog(@"viewDidLoad");
+    
+    [self initializeScoringComponentData];
+    
     self.timer = [[kpcNbaTimerController alloc] initWithTime:nil];
     self.player = [self getPlayer];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -32,6 +37,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) initializeScoringComponentData {
+    NSString *scoringComponentPlistCatPath = [[NSBundle mainBundle] pathForResource:@"scoringComponentData" ofType:@"plist"];
+    self.scoringComponentData = [[NSDictionary alloc] initWithContentsOfFile:scoringComponentPlistCatPath];
+    
+    NSLog(@"scData: %@", self.scoringComponentData);
 }
 
 - (IBAction)startTimer:(id)sender {

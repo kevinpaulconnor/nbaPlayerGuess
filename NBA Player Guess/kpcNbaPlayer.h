@@ -10,6 +10,6 @@
 
 @interface kpcNbaPlayer : NSObject
 
-@property NSArray* scoringComponents;
+@property NSDictionary* scoringComponentValues;
 
 @end

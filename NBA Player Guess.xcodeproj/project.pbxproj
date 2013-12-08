@@ -23,10 +23,9 @@
 		6D1D54241833C62E002982D4 /* NBA_Player_GuessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D54231833C62E002982D4 /* NBA_Player_GuessTests.m */; };
 		6D1D542F1833CAA8002982D4 /* kpcNbaTimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D542E1833CAA8002982D4 /* kpcNbaTimerController.m */; };
 		6D236081184598FC0026A2EE /* kpcNbaScoringComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D236080184598FC0026A2EE /* kpcNbaScoringComponent.m */; };
-		6D2360841845B5BA0026A2EE /* kpcNbaNumberScoringComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2360831845B5BA0026A2EE /* kpcNbaNumberScoringComponent.m */; };
 		6DA08E731854FA3500246759 /* kpcNbaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA08E721854FA3500246759 /* kpcNbaPlayer.m */; };
-		6DA08E761855046100246759 /* kpcNbaStringScoringComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA08E751855046100246759 /* kpcNbaStringScoringComponent.m */; };
 		6DA08E78185507D100246759 /* playerData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DA08E77185507D100246759 /* playerData.plist */; };
+		6DA08E7C1855294700246759 /* scoringComponentData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DA08E7B1855294700246759 /* scoringComponentData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,13 +62,10 @@
 		6D1D542E1833CAA8002982D4 /* kpcNbaTimerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaTimerController.m; sourceTree = "<group>"; };
 		6D23607F184598FC0026A2EE /* kpcNbaScoringComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kpcNbaScoringComponent.h; sourceTree = "<group>"; };
 		6D236080184598FC0026A2EE /* kpcNbaScoringComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaScoringComponent.m; sourceTree = "<group>"; };
-		6D2360821845B5BA0026A2EE /* kpcNbaNumberScoringComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kpcNbaNumberScoringComponent.h; sourceTree = "<group>"; };
-		6D2360831845B5BA0026A2EE /* kpcNbaNumberScoringComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaNumberScoringComponent.m; sourceTree = "<group>"; };
 		6DA08E711854FA3500246759 /* kpcNbaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kpcNbaPlayer.h; sourceTree = "<group>"; };
 		6DA08E721854FA3500246759 /* kpcNbaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaPlayer.m; sourceTree = "<group>"; };
-		6DA08E741855046100246759 /* kpcNbaStringScoringComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kpcNbaStringScoringComponent.h; sourceTree = "<group>"; };
-		6DA08E751855046100246759 /* kpcNbaStringScoringComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaStringScoringComponent.m; sourceTree = "<group>"; };
 		6DA08E77185507D100246759 /* playerData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = playerData.plist; sourceTree = "<group>"; };
+		6DA08E7B1855294700246759 /* scoringComponentData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = scoringComponentData.plist; path = ../scoringComponentData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,13 +131,10 @@
 				6D1D542E1833CAA8002982D4 /* kpcNbaTimerController.m */,
 				6D1D540A1833C62D002982D4 /* Main.storyboard */,
 				6D23607F184598FC0026A2EE /* kpcNbaScoringComponent.h */,
-				6D2360821845B5BA0026A2EE /* kpcNbaNumberScoringComponent.h */,
-				6D2360831845B5BA0026A2EE /* kpcNbaNumberScoringComponent.m */,
 				6DA08E711854FA3500246759 /* kpcNbaPlayer.h */,
-				6DA08E741855046100246759 /* kpcNbaStringScoringComponent.h */,
-				6DA08E751855046100246759 /* kpcNbaStringScoringComponent.m */,
 				6DA08E721854FA3500246759 /* kpcNbaPlayer.m */,
 				6DA08E77185507D100246759 /* playerData.plist */,
+				6DA08E7B1855294700246759 /* scoringComponentData.plist */,
 				6D236080184598FC0026A2EE /* kpcNbaScoringComponent.m */,
 				6D1D540D1833C62D002982D4 /* kpcNbaViewController.h */,
 				6D1D540E1833C62D002982D4 /* kpcNbaViewController.m */,
@@ -257,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA08E7C1855294700246759 /* scoringComponentData.plist in Resources */,
 				6D1D54111833C62D002982D4 /* Images.xcassets in Resources */,
 				6DA08E78185507D100246759 /* playerData.plist in Resources */,
 				6D1D54031833C62D002982D4 /* InfoPlist.strings in Resources */,
@@ -281,12 +275,10 @@
 			files = (
 				6D236081184598FC0026A2EE /* kpcNbaScoringComponent.m in Sources */,
 				6DA08E731854FA3500246759 /* kpcNbaPlayer.m in Sources */,
-				6D2360841845B5BA0026A2EE /* kpcNbaNumberScoringComponent.m in Sources */,
 				6D1D54051833C62D002982D4 /* main.m in Sources */,
 				6D1D54091833C62D002982D4 /* kpcNbaAppDelegate.m in Sources */,
 				6D1D542F1833CAA8002982D4 /* kpcNbaTimerController.m in Sources */,
 				6D1D540F1833C62D002982D4 /* kpcNbaViewController.m in Sources */,
-				6DA08E761855046100246759 /* kpcNbaStringScoringComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

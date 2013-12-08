@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Position</key>
+	<dict>
+		<key>pointValue</key>
+		<real>50</real>
+		<key>displayTitle</key>
+		<string>Pos</string>
+	</dict>
+    <key>Team</key>
+    <dict>
+        <key>pointValue</key>
+        <real>60</real>
+        <key>displayTitle</key>
+        <string>Team</string>
+    </dict>
+    <key>SR1</key>
+    <dict>
+        <key>pointValue</key>
+        <real>70</real>
+        <key>displayTitle</key>
+        <string>Scouting Report 1</string>
+    </dict>
+    <key>SR2</key>
+    <dict>
+        <key>pointValue</key>
+        <real>70</real>
+        <key>displayTitle</key>
+        <string>Scouting Report 2</string>
+    </dict>
+    <key>SR3</key>
+    <dict>
+        <key>pointValue</key>
+        <real>70</real>
+        <key>displayTitle</key>
+        <string>Scouting Report 3</string>
+    </dict>
+    <key>College</key>
+    <dict>
+        <key>pointValue</key>
+        <real>80</real>
+        <key>displayTitle</key>
+        <string>College</string>
+    </dict>
+    <key>PPG</key>
+    <dict>
+        <key>pointValue</key>
+        <real>70</real>
+        <key>displayTitle</key>
+        <string>PPG</string>
+    </dict>
+</dict>
+</plist>

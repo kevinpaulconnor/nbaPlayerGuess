@@ -10,6 +10,6 @@
 
 @interface kpcNbaScoringComponent : NSObject
 @property NSInteger pointValue;
-@property NSString* title;
+@property NSString* displayTitle;
 
 @end
