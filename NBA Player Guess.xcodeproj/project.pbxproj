@@ -25,6 +25,7 @@
 		6D236081184598FC0026A2EE /* kpcNbaScoringComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D236080184598FC0026A2EE /* kpcNbaScoringComponent.m */; };
 		6D2360841845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2360831845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.m */; };
 		6DA08E731854FA3500246759 /* kpcNbaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA08E721854FA3500246759 /* kpcNbaPlayer.m */; };
+		6DA08E761855046100246759 /* kpcNbaStringScoringComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA08E751855046100246759 /* kpcNbaStringScoringComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		6D2360831845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaIntegerScoringComponent.m; sourceTree = "<group>"; };
 		6DA08E711854FA3500246759 /* kpcNbaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kpcNbaPlayer.h; sourceTree = "<group>"; };
 		6DA08E721854FA3500246759 /* kpcNbaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaPlayer.m; sourceTree = "<group>"; };
+		6DA08E741855046100246759 /* kpcNbaStringScoringComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kpcNbaStringScoringComponent.h; sourceTree = "<group>"; };
+		6DA08E751855046100246759 /* kpcNbaStringScoringComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaStringScoringComponent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				6D2360821845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.h */,
 				6D2360831845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.m */,
 				6DA08E711854FA3500246759 /* kpcNbaPlayer.h */,
+				6DA08E741855046100246759 /* kpcNbaStringScoringComponent.h */,
+				6DA08E751855046100246759 /* kpcNbaStringScoringComponent.m */,
 				6DA08E721854FA3500246759 /* kpcNbaPlayer.m */,
 				6D236080184598FC0026A2EE /* kpcNbaScoringComponent.m */,
 				6D1D540D1833C62D002982D4 /* kpcNbaViewController.h */,
@@ -277,6 +282,7 @@
 				6D1D54091833C62D002982D4 /* kpcNbaAppDelegate.m in Sources */,
 				6D1D542F1833CAA8002982D4 /* kpcNbaTimerController.m in Sources */,
 				6D1D540F1833C62D002982D4 /* kpcNbaViewController.m in Sources */,
+				6DA08E761855046100246759 /* kpcNbaStringScoringComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
