@@ -10,4 +10,9 @@
 
 @implementation kpcNbaIntegerScoringComponent
 
+- (kpcNbaIntegerScoringComponent*) init:(NSInteger)data {
+    self = [super init];
+    return self;
+}
+
 @end

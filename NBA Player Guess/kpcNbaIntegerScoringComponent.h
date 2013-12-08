@@ -9,7 +9,7 @@
 #import "kpcNbaScoringComponent.h"
 
 @interface kpcNbaIntegerScoringComponent : kpcNbaScoringComponent
-//not sure whether compiler warning here matters...
-@property NSInteger* data;
+
+@property NSInteger data;
 
 @end

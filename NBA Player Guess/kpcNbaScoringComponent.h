@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface kpcNbaScoringComponent : NSObject
-@property NSInteger* pointValue;
+@property NSInteger pointValue;
 @property NSString* title;
 
 @end

@@ -10,11 +10,8 @@
 
 @implementation kpcNbaScoringComponent
 
-- (kpcNbaScoringComponent*) init:(NSString*)title {
+- (kpcNbaScoringComponent*) init {
     self = [super init];
-    
-    self.title = title;
-    
     return self;
 }
 
