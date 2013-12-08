@@ -22,6 +22,8 @@
 		6D1D54221833C62E002982D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D1D54201833C62E002982D4 /* InfoPlist.strings */; };
 		6D1D54241833C62E002982D4 /* NBA_Player_GuessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D54231833C62E002982D4 /* NBA_Player_GuessTests.m */; };
 		6D1D542F1833CAA8002982D4 /* kpcNbaTimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D542E1833CAA8002982D4 /* kpcNbaTimerController.m */; };
+		6D236081184598FC0026A2EE /* kpcNbaScoringComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D236080184598FC0026A2EE /* kpcNbaScoringComponent.m */; };
+		6D2360841845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2360831845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		6D1D54231833C62E002982D4 /* NBA_Player_GuessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBA_Player_GuessTests.m; sourceTree = "<group>"; };
 		6D1D542D1833CAA8002982D4 /* kpcNbaTimerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kpcNbaTimerController.h; sourceTree = "<group>"; };
 		6D1D542E1833CAA8002982D4 /* kpcNbaTimerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaTimerController.m; sourceTree = "<group>"; };
+		6D23607F184598FC0026A2EE /* kpcNbaScoringComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kpcNbaScoringComponent.h; sourceTree = "<group>"; };
+		6D236080184598FC0026A2EE /* kpcNbaScoringComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaScoringComponent.m; sourceTree = "<group>"; };
+		6D2360821845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kpcNbaIntegerScoringComponent.h; sourceTree = "<group>"; };
+		6D2360831845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kpcNbaIntegerScoringComponent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				6D1D542D1833CAA8002982D4 /* kpcNbaTimerController.h */,
 				6D1D542E1833CAA8002982D4 /* kpcNbaTimerController.m */,
 				6D1D540A1833C62D002982D4 /* Main.storyboard */,
+				6D23607F184598FC0026A2EE /* kpcNbaScoringComponent.h */,
+				6D2360821845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.h */,
+				6D2360831845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.m */,
+				6D236080184598FC0026A2EE /* kpcNbaScoringComponent.m */,
 				6D1D540D1833C62D002982D4 /* kpcNbaViewController.h */,
 				6D1D540E1833C62D002982D4 /* kpcNbaViewController.m */,
 				6D1D54101833C62D002982D4 /* Images.xcassets */,
@@ -255,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D236081184598FC0026A2EE /* kpcNbaScoringComponent.m in Sources */,
+				6D2360841845B5BA0026A2EE /* kpcNbaIntegerScoringComponent.m in Sources */,
 				6D1D54051833C62D002982D4 /* main.m in Sources */,
 				6D1D54091833C62D002982D4 /* kpcNbaAppDelegate.m in Sources */,
 				6D1D542F1833CAA8002982D4 /* kpcNbaTimerController.m in Sources */,
@@ -467,6 +479,7 @@
 				6D1D54291833C62E002982D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D1D542A1833C62E002982D4 /* Build configuration list for PBXNativeTarget "NBA Player GuessTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +488,7 @@
 				6D1D542C1833C62E002982D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
